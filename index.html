@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/master.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <title>Dory</title>
+  </head>
+  <body>
+    <div id="loading">
+      i am loading buddy!!
+    </div>
+<div id="wrapper" class="bgc">
+<nav id="navigation" class="navbar">
+  <h5>this is jquery navbar</h5>
+</nav>
+<section>
+    <p>lorem ipsum...........</p>
+  </section>
+  <aside><h4>Side Bar</h4></aside>
+  <div class="clearfix">
+
+  </div>
+  <footer>&copy; myDesign</footer>
+</div>
+  </body>
+  <script type="text/javascript">
+    $(window).load(function(){
+      $('#loading').fadeOut(2000);
+    });
+</script>
+
+  <script type="text/javascript">
+  // $('#wrapper').hide().delay(1500).fadeIn(600);
+  $('section,aside').hide().delay(900).slideDown(900);
+  $('#navigation').css({border: '4px solid red'});
+  $('body aside, section').animate({height: '200px'}, 400);
+  $('footer').animate({left:'0vw'},2400);
+
+  </script>
+</html>

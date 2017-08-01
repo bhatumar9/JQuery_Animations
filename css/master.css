@@ -1,0 +1,59 @@
+#loading {
+  height: 100px;
+  width: 100px;
+  position: fixed;
+  z-index: 1000;
+  left: 50%;
+  top: 50%;
+  margin: -25px 0 0 -25px; }
+
+.bgc {
+  background: olive;
+  padding: 15px;
+  margin: 0px;
+  height: 200vh; }
+  .bgc .navbar {
+    padding: 15px;
+    color: white;
+    background: black;
+    text-transform: capitalize;
+    word-spacing: 10em;
+    text-align: center; }
+    .bgc .navbar font {
+      family: arial;
+      size: 28px;
+      weight: bold; }
+
+.hello {
+  background: red !important; }
+
+section {
+  float: left;
+  background: blue;
+  color: silver;
+  width: 70%;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+aside {
+  float: right;
+  color: green;
+  background: brown;
+  width: 25%;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+footer {
+  background: navy;
+  color: skyblue;
+  padding: 100px;
+  position: absolute;
+  left: -100vw;
+  width: 90%; }
+
+.clearfix {
+  display: table;
+  content: " ";
+  clear: both; }
+
+/*# sourceMappingURL=master.css.map */
